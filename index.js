@@ -14,11 +14,11 @@ function Scooter(year, color, model) {
   
   let newDriver = new Driver();
   
-  function PickupLocation(adress, city) {
-    this.address = adress;
+  function PickupLocation(address, city) {
+    this.address = address;
     this.city = city;
   }
   
-  let newlocation = new PickupLocation();
+  let newLocation = new PickupLocation();
   
   
